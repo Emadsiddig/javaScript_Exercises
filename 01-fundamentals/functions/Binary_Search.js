@@ -1,5 +1,5 @@
 function Binary_Search(arr,key){
-  
+    console.log(arr);
     let left = 0;
     let right = arr.length -1;
 
@@ -20,5 +20,6 @@ return -1;
 
 }
 
-let array = [2,3,5,6,7,8,6,3,2]
-console.log(Binary_Search(array,2));
+let array = [2,5,7,8,6,3];
+array.sort((a,b)=> a-b);
+console.log('The key is in index  ' + Binary_Search(array,6));

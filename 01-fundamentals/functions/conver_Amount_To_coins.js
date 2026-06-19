@@ -8,7 +8,7 @@ function convAmountTOCoins(amount, coins){
         let fit = Math.floor(amount / currentCoin);
         
         for(let j = 0; j < fit; j++){
-            arrOfcoins.push(currentCoin); // Use () and push the coin, not the counter
+            arrOfcoins.push(currentCoin); // Use () and push the coin.
         }
         
         amount %= currentCoin; // Remainder of the actual coin
