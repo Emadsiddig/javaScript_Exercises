@@ -13,4 +13,4 @@ To run these exercises locally, make sure you have the Java Development Kit (JDK
 ### Installation & Running
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/java-exercises.git](https://github.com/your-username/java-exercises.git)
+   git clone [https://https://github.com/Emadsiddig/javaScript_Exercises.git);
